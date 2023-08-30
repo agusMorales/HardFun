@@ -169,7 +169,6 @@ footer {
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
 
 }
 
