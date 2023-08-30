@@ -18,10 +18,11 @@ body {
 
 .bg-space{
     display: flex;
-    background-color: rgb(78, 76, 76);
+    background-color: rgb(0, 0, 0);
     color: white;
 
 }
+
 
 
 .logo{
@@ -165,47 +166,37 @@ footer {
     background-color: rgb(78, 76, 76);
     margin-top: auto;
     padding: 16px;
-    position: relative;
-    bottom: 0px;
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 
 }
 
-.footerWraper{
-    display: flex;
-    flex-direction: column;
+.divSeparador{
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
 }
 
-.footerColums ul a{
-    list-style-type: none;
+.botonFooter{
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.divAyuda{
+    text-align: center;
+    padding: 20px;
     
-}
-
-.footerColums ul a {
-    color: white;
-    text-decoration: none;
-}
-
-.footerColums ul a:hover {
-    text-decoration: underline;
-}
-
-.footerColums ul li {
-    margin-bottom: 16px;
-}
-
-.imgAyuda img{
-    width: 40px;
-    height: 40px;
 }
 
 .LinkSocial{
     display: flex;
     flex-direction: row;
     gap: 12px;
-
+    justify-content: center;
+    
 }
 
 .LinkSocial a img{
@@ -219,31 +210,14 @@ footer {
     transform: scale(1.1);
 }
 
-.footerColums{
-    padding-top: 24px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
 
+
+
+
+.derechos{
+    background-color: white;
+    font-size: 10px;
 }
-
-.footerColums {
-    padding-top: 24px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
-
-}
-
-.footerColums ul h2{
-    color: #fff;
-    margin-bottom: 25px;
-    font-size: 1.125rem;
-
-}
-
 
 /*Contacto*/
 .titleP {
