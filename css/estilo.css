@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    padding-bottom: 3em;
     background-image: url("../Multimedia/fondoBody.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +20,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
 
-}
+}/**/
 
 
 
@@ -163,7 +162,7 @@ body {
 /*Footer*/
 footer {
     width: 100%;
-    background-color: rgb(78, 76, 76);
+    background-color: rgb(0, 0, 0);
     margin-top: auto;
     padding: 16px;
     color: rgb(255, 255, 255);
@@ -172,17 +171,26 @@ footer {
 
 }
 
-.divSeparador{
+
+
+ .divSeparador{
     border-top: 1px solid #ccc;
     padding: 20px;
     text-align: center;
 }
 
-.botonFooter{
+ .botonFooter{
     border-radius: 8px;
     text-align: center;
+    background-color: rgb(29, 28, 28);
 }
 
+.botonFooter:hover{
+    box-shadow: inset -10.5em 0 0 0
+    #007bff, inset 10.5em 0 0 0 #007bff;
+    transition: all 1s ease-in-out;
+    
+}
 
 .divAyuda{
     text-align: center;
@@ -211,7 +219,11 @@ footer {
 
 
 
-
+.dataFiscalImg{
+    margin-left: 30%;
+    margin-bottom: 10px;
+    width: 40%;
+}
 
 .derechos{
     background-color: white;
@@ -268,7 +280,7 @@ textarea {
     resize: vertical;
 }
   
-button {
+button{
     margin-top: 15px;
     background-color: #007bff;
     color: #fff;
@@ -318,7 +330,29 @@ iframe{
         justify-content: space-evenly;
         flex-direction: row;
     }
+
+    .acomodar{
+        display: flex;
+    }
+
+    footer .divSeparador{
+        border-top: none;
+        padding: 20px;
+        text-align: center;
+        border-left: 1px solid #ccc;
+        
+    }
+
+    
+    .dataFiscalImg{
+        margin-top: 4%;
+        margin-left: 20%;
+        width: 55%;
+    }/**/
+
+
 }
+
 
 @media screen and (min-width:1600px){
     .banner{
