@@ -7,12 +7,36 @@ footer{
     display: flex;
     justify-content: space-evenly;
     .acomodar{
-        div{
-            .dataFiscalImg{
-                margin-top: 4%;
-                margin-left: 20%;
-                width: 55%;
+            div{
+                .dataFiscalImg{
+                    margin-top: 4%;
+                    margin-left: 20%;
+                    width: 55%;
+                }
             }
-        }
+            .divSeparador{
+                    .botonFooter{
+                        border-radius: 8px;
+                        text-align: center;
+                        background-color: rgb(29, 28, 28);
+                        &hover{
+                            box-shadow: inset -10.5em 0 0 0
+                            #007bff, inset 10.5em 0 0 0 #007bff;
+                            transition: all 1s ease-in-out;
+                        }
+                    }
+                    .linkSocial{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 12px;
+                        justify-content: center;
+                        a img{
+                            height: 24px;
+                            width: 24px;
+                            transition: all 0.2s ease-in-out;
+                        
+                        }
+                    }
+            }
     }
 }
