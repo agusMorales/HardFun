@@ -1,0 +1,11 @@
+
+@mixin columna-resolucion ($cantidad,$espacio){
+    display:grid;
+    grid-template-columns: repeat($cantidad,$espacio);
+}
+
+@mixin mi-flex($distancia){
+    display: flex;
+    flex-direction: column;
+    justify-content: $distancia;
+}

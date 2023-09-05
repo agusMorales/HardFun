@@ -1,1 +1,15 @@
-@import "./layout/_header.scss";
+@import "base/_reset";
+@import "utils/_variables";
+@import "utils/_mixin";
+@import "utils/_extend";
+
+@import "layout/_body";
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_derechos.scss";
+
+
+
+@import "view/_inicio.scss";
+@import "view/_pcArmdas-hardware-monitores";
+@import "view/_contacto.scss";

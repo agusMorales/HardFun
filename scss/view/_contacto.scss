@@ -1,0 +1,58 @@
+.formu{
+    @include mi-flex(center);
+    .help-form{
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        padding: 30px; 
+        width: 600px; 
+        max-width: 100%;
+        .h1Form{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .titleP{
+            color: #333; 
+            font-weight: bold;
+            @extend %padding;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            label {
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            input,
+            textarea {
+                @extend %padding;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            button{
+                margin-top: 15px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+        
+        iframe{
+            padding: 20px;
+            width: 100%;
+        }
+
+    }
+    
+}
+
+@media screen and (min-width:1152px){
+    .formu{
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+}
