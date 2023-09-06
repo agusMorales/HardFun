@@ -12,6 +12,7 @@
             text-decoration: underline;
         }
         .titleP{
+            margin-top: 50px;
             color: #333; 
             font-weight: bold;
             @extend %padding;

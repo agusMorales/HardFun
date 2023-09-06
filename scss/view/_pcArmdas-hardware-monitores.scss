@@ -15,8 +15,8 @@
         padding: 15px;
         text-align: center;
         max-width: 250px; 
-        margin: 0 auto; 
-        box-shadow: -1px 15px 30px -12px rgb(32, 32, 32);
+        margin: 30px auto; 
+        box-shadow: 0 0 20px 5px white, 0 0 30px 5px white , 0 0 40px 5px white;
         cursor: pointer;
         img{
             max-width: 100%;
@@ -27,8 +27,14 @@
             filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
             transform: translate(0rem ,-1rem) ;
         }
+        h2{
+            text-align: center;
+            font-size: 15px;
+            margin: 0;
+        }
         h3{
-            font-size: 18px;
+            text-align: center;
+            font-size: 14px;
             margin: 0;
         }
         .boton-compra {
@@ -39,7 +45,7 @@
             color: $color-boton-hover;
             font-size: 14px;
             cursor: pointer;
-            transition:  0.3s, color 0.3s, transform 0.3s;
+            transition:  1s, color 0.3s, transform 0.3s;
             & ::before,::after{
                 position: relative;
                 z-index: -1;
