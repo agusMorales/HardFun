@@ -1,11 +1,17 @@
-.bg-space{
-    display: flex;
-    background-color: $color-header-footer;
-    color: $color-letra-general;
-    .logo {
-        width: 150px;
-        padding: 10px;
-        padding-left: 20px;
+header{
+    .bg-space{
+        display: flex;
+        background-color: $color-header-footer;
+        color: $color-letra-general;
+        .logo {
+            width: 150px;
+            padding: 10px;
+            padding-left: 20px;
+        }
+        .bg-hamburguesa{
+            background-color: #A6A8F0;
+        }
     }
-
 }
+        
+

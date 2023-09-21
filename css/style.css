@@ -17,14 +17,16 @@ body {
   background-size: cover;
   position: relative; }
 
-.bg-space {
+header .bg-space {
   display: flex;
   background-color: black;
   color: white; }
-  .bg-space .logo {
+  header .bg-space .logo {
     width: 150px;
     padding: 10px;
     padding-left: 20px; }
+  header .bg-space .bg-hamburguesa {
+    background-color: #A6A8F0; }
 
 footer {
   width: 100%;
@@ -52,7 +54,7 @@ footer {
       border: none;
       background-color: #1c1c1c; }
       footer .divSeparador .botonFooter:hover {
-        box-shadow: inset -10.5em 0 0 0 #007bff, inset 10.5em 0 0 0 #007bff;
+        box-shadow: inset -10.5em 0 0 0 #3b3e86, inset 10.5em 0 0 0 #3b3e86;
         transition: all 1s ease-in-out; }
     footer .divSeparador .LinkSocial {
       display: flex;
@@ -105,6 +107,8 @@ footer {
     justify-content: center;
     height: 100%;
     width: 100%; }
+    .imgLink a .imgLinkHardware {
+      display: block; }
     .imgLink a img {
       width: 100%;
       height: 100%;
@@ -123,14 +127,14 @@ footer {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-color: white;
+    background-color: #A6A8F0;
     border: 3px solid #000000;
     border-radius: 10px;
     padding: 15px;
     text-align: center;
     max-width: 250px;
     margin: 30px auto;
-    box-shadow: 0 0 20px 5px white, 0 0 30px 5px white , 0 0 40px 5px white;
+    box-shadow: 0 0 20px 5px #0400e4, 0 0 30px 5px white, 0 0 40px 5px white;
     cursor: pointer; }
     .articulos .art img {
       max-width: 100%;
@@ -150,9 +154,9 @@ footer {
     .articulos .art .boton-compra {
       display: inline-block;
       padding: 10px 20px;
-      border: 2px solid #007bff;
-      background-color: white;
-      color: #007bff;
+      border: 2px solid #3b3e86;
+      background-color: #333252;
+      color: white;
       font-size: 14px;
       cursor: pointer;
       transition: 1s, color 0.3s, transform 0.3s; }
@@ -161,8 +165,8 @@ footer {
         z-index: -1; }
       .articulos .art .boton-compra:hover {
         color: white;
-        background: #007bff;
-        box-shadow: 0 0 5px #007bff, 0 0 25px #007bff, 0 0 50px #007bff, 0 0 200px #007bff; }
+        background: #3b3e86;
+        box-shadow: 0 0 5px #3b3e86, 0 0 25px #3b3e86, 0 0 50px #3b3e86, 0 0 200px #3b3e86; }
 
 @media screen and (min-width: 600px) {
   .banner {
@@ -191,8 +195,8 @@ footer {
   .formu .help-form {
     background-color: #0f0c0c;
     border-radius: 10px;
-    box-shadow: 2px 2px 30px white;
-    margin: 10px 10px;
+    box-shadow: 2px 2px 30px #cab8b8;
+    margin: 1rem;
     padding: 50px;
     width: 600px;
     max-width: 100%; }
